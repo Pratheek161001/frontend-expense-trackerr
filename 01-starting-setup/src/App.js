@@ -5,36 +5,22 @@ import Expenses from "./components/Expenses/Expenses";
 const dummyExpense=[
   {
     id: 'e1',
-    title: 'DSLR',
-    amount: 50000,
-    date: new Date(2026, 9, 16),
+    title: 'Toilet Paper',
+    amount: 94.12,
+    date: new Date(2020, 7, 14),
   },
-
-  { id: 'e2',
-    title: 'Go-Pro',
-    amount: 30000, 
-    date: new Date(2026, 9, 16) 
-  },
-
+  { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
   {
     id: 'e3',
-    title: 'DJI mini drone',
-    amount: 100000,
-    date: new Date(2026, 9, 16),
+    title: 'Car Insurance',
+    amount: 294.67,
+    date: new Date(2021, 2, 28),
   },
-
   {
     id: 'e4',
-    title: 'Tripod & Lens',
-    amount: 70000,
-    date: new Date(2026, 9, 16),
-  },
-
-  {
-    id: 'e5',
-    title: 'Macbook',
-    amount: 200000,
-    date: new Date(2026, 9, 16),
+    title: 'New Desk (Wooden)',
+    amount: 450,
+    date: new Date(2021, 5, 12),
   },
 ]
 const App=()=> {
